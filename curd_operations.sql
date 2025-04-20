@@ -1,0 +1,5 @@
+CREATE DATABASE crud_op;
+use crud_op;
+CREATE TABLE users(id INT PRIMARY KEY AUTO_INCREMENT, 
+name VARCHAR(50), email VARCHAR(50));
+SELECT * FROM users;
